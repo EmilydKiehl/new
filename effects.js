@@ -1,3 +1,9 @@
+$('#turn_on').click(function(){
+		$('body').addClass('peach');
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
+			$('#yes','#absolutely').fadeIn('slow');
+		});
+
 $('document').ready(function(){
 		var vw;
 		$(window).resize(function(){
