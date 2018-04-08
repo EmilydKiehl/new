@@ -1,4 +1,4 @@
-/* body {
+body {
 	/*background-color: #FFDAB9;	*/
 	background-color: #000;
 	-webkit-transition:background-color linear 5s;
@@ -9,7 +9,7 @@
 	overflow-x:hidden;
 	#clickme.show;
 
-} */
+} 
 .container {
 	display: none;
 }
