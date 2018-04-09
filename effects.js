@@ -1,4 +1,4 @@
-prompt("Enter your name plese");
+var name = prompt("Enter your name plese");
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
