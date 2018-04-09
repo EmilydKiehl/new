@@ -206,5 +206,5 @@ body {
     }
 }
 #clickme, #yes, #absolutely {
-	display: none;
+	display: block;
 }
