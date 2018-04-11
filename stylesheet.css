@@ -1,7 +1,23 @@
-.btn-primary{
+.animate{
 	text-allign: center;
 	padding: 20px;
 	border-color: #e68f11;
 	color: #fff;
 	background-color: #12e67a;
 }
+.bold{
+	text-allign: center;
+	padding: 20px;
+	border-color: #e68f11;
+	color: #fff;
+	background-color: #12e67a;
+}
+.color{
+	text-allign: center;
+	padding: 20px;
+	border-color: #e68f11;
+	color: #fff;
+	background-color: #12e67a;
+}
+
+
