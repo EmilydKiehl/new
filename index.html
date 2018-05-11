@@ -1,48 +1,17 @@
-# Panoramas and 360° Images
-
-In addition to all the scenes that you can be made in A-Frame, we can also use a panorama to simulate pieces of the real world in WebVR. 
-
-### Example link
-https://aframe.io/examples/showcase/sky/
-
-
-### Example code
-```html
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>360&deg; Image</title>
-<meta name="description" content="360&deg; Image - A-Frame">
-<script src="../../../dist/aframe-master.js"></script>
-</head>
-<body>
-<a-scene>
-<a-sky src="puydesancy.jpg" rotation="0 -130 0"></a-sky>
-<a-text font="kelsonsans" value="Puy de Sancy, France" width="6" position="-2.5 0.25 -1.5"
-rotation="0 15 0"></a-text>
-</a-scene>
-</body>
-</html>
-```
+  <head>
+    <meta charset="utf-8">
+    <title>360&deg; Image</title>
+    <meta name="description" content="360&deg; Image - A-Frame">
+    <script src="../../../dist/aframe-master.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky src="pano.jpg" rotation="0 -130 0"></a-sky>
 
-### How does this work?
-Exactly like the previous examples, we are working within a basic `html` outline, which looks like this:
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>360&deg; Image</title>
-</body>
+      //<a-text font="kelsonsans" value="Puy de Sancy, France" width="6" position="-2.5 0.25 -1.5"
+             // rotation="0 15 0"></a-text>
+    </a-scene>
+  </body>
 </html>
-```
-To use A-Frame, we use a `<script>` tag followed by `src="../../../dist/aframe-master.js">`. The A-Frame script in this example is small and very simple. In the body, open a `<a_frame>` tag and you can add values to your picture, such as tags or captians with a_text.
-```html
-<a-sky src="puydesancy.jpg" rotation="0 -130 0"></a-sky>
-<a-text font="kelsonsans" value="Puy de Sancy, France" width="6" position="-2.5 0.25 -1.5"
-rotation="0 15 0"></a-text>
-```
-
-## Challenge
-Take a panorama of your favorite place. Give it an a_text value to caption it.
